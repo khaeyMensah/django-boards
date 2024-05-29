@@ -7,11 +7,18 @@
     <div class="col-lg-8 col-md-10 col-sm-12">
       <div class="card">
         <div class="card-body">
-          <h3 class="card-title">Sign up</h3>
+          <h3 class="card-title text-center">Sign up</h3>
           <form method="post" novalidate>
             {% csrf_token %}
             {% include 'includes/form.html' %}
-            <button type="submit" class="btn btn-primary btn-block">Create an account</button>
+            <div class="d-grid mt-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  I agree to the <a href="#">terms and conditions</a>
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-3">Create an account</button>
           </form>
         </div>
         <div class="card-footer text-muted text-center">

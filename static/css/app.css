@@ -3,3 +3,20 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Breadcrumb styles */
+.container .breadcrumb {
+  background-color: #e9ecef; /* Light gray background */
+  padding: 0.5rem 1rem; /* Add some padding */
+  border-radius: 0.25rem; /* Add rounded corners */
+}
+
+.breadcrumb-item a {
+  color: #007bff; /* Change the color of the breadcrumb links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.breadcrumb-item a:hover {
+  color: #0056b3; /* Change the color of the breadcrumb links on hover */
+  text-decoration: underline; /* Add underline on hover */
+}

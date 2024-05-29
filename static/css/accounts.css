@@ -8,6 +8,7 @@ body {
 
 .logo a {
   color: rgb(0, 0, 0, 0.9);
+  text-decoration: none;
 }
 
 .logo a:hover,
